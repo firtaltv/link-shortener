@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Home
+{% endblock title %}
+{% block content %}
+<h1 style="text-align: center; margin-top: 5%;">Shortened successfully</h1>
+    <div class="content" style="width: 400px;">
+        <div class="card-header">
+            Source link
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ data.link_to }}</li>
+        </ul>
+    </div>
+<br>
+    <div class="content" style="width: 400px;">
+        <div class="card-header">
+            Shortened link
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ data.url }}</li>
+        </ul>
+    </div>
+{% endblock content %}

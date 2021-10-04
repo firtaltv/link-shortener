@@ -1,0 +1,18 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.content {
+    margin-left: 36%;
+    margin-top: 3%;
+}
+
+.form-control {
+    margin-left: -10%;
+    max-width: 650px;
+}
+
+
+button {
+    margin-left: 18%;
+}
